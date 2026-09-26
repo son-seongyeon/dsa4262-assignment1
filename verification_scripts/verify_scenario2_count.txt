@@ -1,0 +1,6 @@
+=== Scenario 2 transcript model count verification ===
+--- counts_transcript.txt line count (includes 1 header row) ---
+15444 results_scenario2/counts_transcript.txt
+--- transcript feature lines in extended_annotations.gtf (ground truth, no header) ---
+15443
+--- conclusion: counts_transcript.txt has 1 header + 15443 data rows = 15444 lines total; 15443 is the correct transcript-model count ---

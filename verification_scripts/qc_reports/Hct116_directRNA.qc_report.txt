@@ -1,0 +1,22 @@
+sample: Hct116_directRNA
+total_reads: 7941
+mapped_reads: 278
+mapping_rate_pct: 3.50
+qc_threshold_pct: 50
+QC_STATUS: FAIL
+7941 + 0 in total (QC-passed reads + QC-failed reads)
+7753 + 0 primary
+182 + 0 secondary
+6 + 0 supplementary
+0 + 0 duplicates
+0 + 0 primary duplicates
+278 + 0 mapped (3.50% : N/A)
+90 + 0 primary mapped (1.16% : N/A)
+0 + 0 paired in sequencing
+0 + 0 read1
+0 + 0 read2
+0 + 0 properly paired (N/A : N/A)
+0 + 0 with itself and mate mapped
+0 + 0 singletons (N/A : N/A)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)

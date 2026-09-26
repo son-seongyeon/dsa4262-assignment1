@@ -1,0 +1,22 @@
+sample: A549_directRNA
+total_reads: 788840
+mapped_reads: 728065
+mapping_rate_pct: 92.30
+qc_threshold_pct: 50
+QC_STATUS: PASS
+788840 + 0 in total (QC-passed reads + QC-failed reads)
+536254 + 0 primary
+250457 + 0 secondary
+2129 + 0 supplementary
+0 + 0 duplicates
+0 + 0 primary duplicates
+728065 + 0 mapped (92.30% : N/A)
+475479 + 0 primary mapped (88.67% : N/A)
+0 + 0 paired in sequencing
+0 + 0 read1
+0 + 0 read2
+0 + 0 properly paired (N/A : N/A)
+0 + 0 with itself and mate mapped
+0 + 0 singletons (N/A : N/A)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)

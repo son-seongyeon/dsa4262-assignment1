@@ -1,0 +1,22 @@
+sample: K562_cDNA
+total_reads: 2211999
+mapped_reads: 2069895
+mapping_rate_pct: 93.58
+qc_threshold_pct: 50
+QC_STATUS: PASS
+2211999 + 0 in total (QC-passed reads + QC-failed reads)
+1393352 + 0 primary
+770233 + 0 secondary
+48414 + 0 supplementary
+0 + 0 duplicates
+0 + 0 primary duplicates
+2069895 + 0 mapped (93.58% : N/A)
+1251248 + 0 primary mapped (89.80% : N/A)
+0 + 0 paired in sequencing
+0 + 0 read1
+0 + 0 read2
+0 + 0 properly paired (N/A : N/A)
+0 + 0 with itself and mate mapped
+0 + 0 singletons (N/A : N/A)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)

@@ -1,0 +1,54 @@
+=== dim(se) ===
+[1] 201719      4
+
+=== novel transcript count (mcols novelTranscript) ===
+novel
+ FALSE   TRUE 
+200310   1409 
+
+=== single-exon novel transcript count ===
+novel & single-exon: 0 
+distribution of exon counts among novel transcripts:
+
+  2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  23 
+534 280 157 102  71  63  46  33  34  20  14  15  12   6   7   2   4   1   2   1 
+ 24  25  26  30  35 
+  1   1   1   1   1 
+
+=== gene-level CPM top5 (method: transcriptToGeneExpression then sum CPM across samples) ===
+ENSG00000211459 ENSG00000210082 ENSG00000137818 ENSG00000111640 ENSG00000167996 
+      182465.98        90353.34        61631.29        39515.08        33098.24 
+ENSG00000087086 ENSG00000184009 ENSG00000236552 
+       29793.15        28758.92        27675.95 
+per-sample CPM for top gene (sanity check no single sample dominates unfairly):
+  SGNex_A549_directRNA_replicate1_run1 SGNex_Hct116_directRNA_replicate6_run1 
+                             1903.4915                            180000.0360 
+     SGNex_Hct116_cDNA_replicate1_run6        SGNex_K562_cDNA_replicate1_run3 
+                              326.5267                               235.9210 
+
+=== transcripts per gene: all annotated+novel, denominator = all genes with >=1 transcript in se ===
+n genes (denominator): 58709 
+min: 1 max: 193 mean: 3.435913 
+
+=== transcripts per gene: expressed only (>=10 reads in >=1 sample), same gene set restricted ===
+n expressed transcripts: 11532 
+n genes with >=1 expressed transcript (denominator): 8409 
+min: 1 max: 10 mean: 1.371388 
+
+=== ENST00000331825 verification ===
+rowname found: TRUE 
+total counts per sample: 7728 0 4885 9463 
+unique counts per sample: 7728 0 4885 9463 
+sum unique: 22076 
+sum total: 22076 
+equal (fully unique, no ambiguity)? TRUE 
+
+=== recompute unique-only selection from scratch, verify top pick ===
+n transcripts fully-unique (no ambiguity), by strict equality check: 12195 
+ENST00000331825 ENST00000233143 ENST00000387347 
+          22076           18626            8503 
+
+=== 3 selected novel transcripts: expression totals cross-check ===
+BambuTx381 total counts per sample: 455 0 3429 4205  SUM: 8089 
+BambuTx757 total counts per sample: 839 0.5 2312.1 4017.98  SUM: 7169.58 
+BambuTx369 total counts per sample: 355.78 0 2121 2173  SUM: 4649.78 
